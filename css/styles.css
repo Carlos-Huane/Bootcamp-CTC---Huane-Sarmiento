@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+}
+.navbar {
+    /* font-weight: 100; */
+    background-color: #EBEBEB;
+    margin: 0;
+    padding: 10px 20px;
+}
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 10px;
+    color: yellow;
+}
+.navbar-nav a {
+    text-decoration: none;
+    color: #322203;
+}
+.navbar-nav-s {
+    font-size: 15px;
+}
+.navbar-nav-p {
+    font-size: 31.1px;
+    color: #322203;
+}
+.background {
+    background-image: url("../Images/fondo.jpg");
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+.background-text h1 {
+    font-size: 40px;
+}
+.background-text p {
+    font-size: 17px;
+}
+.button{
+    background-color: white;
+    padding: 0px 20px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* border: 0px; */
+}
+.button p {
+    font-size: 9.4px;
+}
+.button:hover {
+    cursor: pointer;
+}
