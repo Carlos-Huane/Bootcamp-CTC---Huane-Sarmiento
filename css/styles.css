@@ -117,6 +117,62 @@ a {
 .contenedor {
     max-width: 90%;
     width: 90%;
-    /* is the same width: min(90%, 120rem); HS */
     margin: 0 auto;
+}
+/* .contenedor h3 {
+    text-align: center;
+} */
+
+/* Contacto */
+
+.formulario {
+    background-color: white;
+    margin: 0 auto 0 auto;
+    width: 80%;
+    padding: 2.5rem;
+}
+.formulario h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.campo {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+.campo__label {
+    flex: 0 0 60px;
+    text-align: right;
+}
+.campo__field {
+    flex: 1;
+    border: 1px solid #9b9b9b;
+}
+.campo__field--textarea {
+    height: 20rem;
+}
+#mensaje {
+    margin-bottom: 36px;
+}
+@media (max-width: 768px) {
+    .formulario {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+}
+
+.boton {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border: none;
+    background-color: black;
+}
+input {
+    font-size: 100%;
 }
