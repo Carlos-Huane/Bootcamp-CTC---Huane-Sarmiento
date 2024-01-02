@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css" >
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+    <!-- FUENTES DE GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <title>CTC - Huane Sarmiento</title>
 </head>
 <body>
@@ -18,7 +24,7 @@
                     <a class="navbar-nav-s" href="#maintenance">COLECCIONES</a>
                 </li>
                 <li>
-                    <a class="navbar-nav-p" href="#">LOUVRO</a>
+                    <a class="navbar-nav-p" href="#background">HSPROYECT</a>
                 </li>
                 <li>
                     <a class="navbar-nav-s" href="#maintenance">SOBRE MÍ</a>
@@ -30,7 +36,7 @@
         </nav>
     </head>
     <body>
-        <div class="background">
+        <div class="background" id="background">
            <div class="background-text">
             <h1>Joyería delicada hecha a la medida</h1>
             <p>Porque todos merecemos cosas únicas</p>
@@ -113,8 +119,20 @@
             </main>
         </section>
     </body>
-    <footer>
-
-    </footer> 
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <div class="logo" href="index.html">
+                    <a href="#background" style="color: white;"><h1 class="logo__nombre no-margin" >HSPROYECT</h1></a>
+                </div>
+                <nav class="navegacion">
+                    <a href="#services" class="navegacion__enlace">Servicios</a>
+                    <a href="#maintenance" class="navegacion__enlace">Joyas</a>
+                    <a href="https://twitter.com/hsproyect" class="navegacion__enlace">Twitter</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

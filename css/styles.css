@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #EBEBEB;
+    font-family: 'Oswald', sans-serif;
 }
 h1 {
     margin: 0;
@@ -29,13 +30,19 @@ a {
 .navbar-nav-s {
     font-size: 15px;
 }
+@media(max-width: 768px) {
+    .navbar-nav-s {
+        display: none;
+    }
+}
 .navbar-nav-p {
     font-size: 31.1px;
     color: #322203;
+    font-weight: 700;
 }
 .background {
     background-image: url("../Images/fondo.jpg");
-    height: 30rem;
+    height: 34.5rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -81,6 +88,12 @@ a {
 #services div {
     display: flex;
     /* flex-direction: row; */
+}
+@media (max-width: 768px) {
+    #services div{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .services-title {
     justify-content: center;
@@ -170,9 +183,45 @@ a {
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 20px;
+    margin-left: 10px;
     border: none;
-    background-color: black;
+    background-color: #df883d;
 }
 input {
     font-size: 100%;
+}
+.footer {
+    background-color: #df883d;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .barra {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo {
+    color: white;
+    text-align: center;
+}
+.logo__nombre {
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 20px;
+    }
+}
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
 }
