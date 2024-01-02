@@ -114,3 +114,9 @@ a {
 .maintenance-title {
     font-size: 30px;
 }
+.contenedor {
+    max-width: 90%;
+    width: 90%;
+    /* is the same width: min(90%, 120rem); HS */
+    margin: 0 auto;
+}
